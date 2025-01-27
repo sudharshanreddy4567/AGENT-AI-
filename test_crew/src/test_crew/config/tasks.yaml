@@ -1,0 +1,17 @@
+research_task:
+  description: >
+    Conduct a thorough research about Data Engineering 
+    Make sure you find any interesting and relevant information given
+    the current year is {2025}.
+  expected_output: >
+    A clear resume for the Tech Stack Data engineering 
+  agent: resumebuilder
+
+reporting_task:
+  description: >
+    Review the resume you got and correct the resume by adding the points you feel are correct.
+    remove the points which feel are irrelavent. Dont miss out to add the 2 projects
+  expected_output: >
+    A perfect resume for data engineering skill set for fresher 
+  agent: resumereviwerandreconstructor
+  output_files: resume.txt
